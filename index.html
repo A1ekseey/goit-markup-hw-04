@@ -19,8 +19,7 @@
   <body>
     <header class="header">
       <div class="container header-container">
-
-  <!-- Header -->
+  
         <nav class="nav">
           <a class="logo-web header-logo" href="./index.html"
             >Web<span class="logo-studio">Studio</span></a
@@ -28,7 +27,7 @@
 
           <ul class="menu-list">
             <li class="menu-item">
-              <a class="menu-link" href="./index.html">Studio</a>
+              <a class="menu-link current" href="./index.html">Studio</a>
             </li>
             <li class="menu-item">
               <a class="menu-link" href="">Portfolio</a>
@@ -55,47 +54,80 @@
       </div>
     </header>
 
-<!-- HERO -->
+
+
+
+
+
+
 
     <main class="main">
-    
+ 
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="button" type="button">Order Service</button>
         </div>
       </section>
-    
-<!-- Section-one -->
 
+
+
+
+
+<!-- SECTION 1 -->
+
+
+
+
+  
       <section class="section-one">
         <div class="container section-one-container">
           <h2 class="visually-hidden">Team's values</h2>
           <ul class="section-one-list">
-            <li class="section-one-item">
-              <h3 class="section-one-text">Strategy</h3>
-              <p class="section-text">
+            <li class="section-one-team-item">
+              <div class="section-one-icon-container">
+                <svg class="photo-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3 class="section-one-title-text">Strategy</h3>
+              <p class="section-one-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="section-one-item">
-              <h3 class="section-one-text">Punctuality</h3>
-              <p class="section-text">
+            <li class="section-one-team-item">
+              <div class="section-one-icon-container">
+                <svg class="photo-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3 class="section-one-title-text">Punctuality</h3>
+              <p class="section-one-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li class="section-one-item">
-              <h3 class="section-one-text">Diligence</h3>
-              <p class="section-text">
+            <li class="section-one-team-item">
+              <div class="section-one-icon-container">
+                <svg class="photo-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h3 class="section-one-title-text">Diligence</h3>
+              <p class="section-one-text">
                 Research and confirm brands that present the digital growth
                 opportunities and minimize risk.
               </p>
             </li>
-            <li class="section-one-item">
-              <h3 class="section-one-text">Technologies</h3>
-              <p class="section-text">
+            <li class="section-one-team-item">
+              <div class="section-one-icon-container">
+                <svg class="photo-icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="section-one-title-text">Technologies</h3>
+              <p class="section-one-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -104,65 +136,195 @@
         </div>
       </section>
 
-      <!-- Section-two -->
+
+      
+<!-- SECTION 2 -->
+
+
 
       <section class="section-two">
         <div class="container">
-          <h2 class="section-two-team">Our Team</h2>
-          <ul class="section-two-list">
-            <li class="section-two-item">
+          <h2 class="section-two-team-title">Our Team</h2>
+          <ul class="section-two-photo-list">
+            <li class="section-two-photo-item">
               <img
                 src="./images/mark.jpg"
                 alt="Product Designer Photo"
                 width="264"
                 height="260"
               />
-              <div class="section-two-container">
-                <h3 class="section-two-text">Mark Guerrero</h3>
-                <p class="section-two-photo">Product Designer</p>
+              <div class="section-two-title-container">
+                <h3 class="section-one-title-text">Mark Guerrero</h3>
+                <p class="section-two-photo-text">Product Designer</p>
+                <ul class="section-two-social-icons-list">
+                  <li class="soc-media-icon-item">
+                    <a href="https://instagram.com" class="social-icons-link">
+                      <svg class="section-two-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-media-icon-item">
+                    <a href="https://twitter.com" class="social-icons-link">
+                      <svg class="section-two-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-media-icon-item">
+                    <a href="https://facebook.com" class="social-icons-link">
+                      <svg class="section-two-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-media-icon-item">
+                    <a href="https://linkedin.com" class="social-icons-link">
+                      <svg class="section-two-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
-            <li class="section-two-item">
+            <li class="section-two-photo-item">
               <img
                 src="./images/tom.jpg"
                 alt="Frontend Developer Photo"
                 width="264"
                 height="260"
               />
-              <div class="section-two-container">
-                <h3 class="section-two-text">Tom Ford</h3>
-                <p class="section-two-photo">Frontend Developer</p>
+              <div class="section-two-title-container">
+                <h3 class="section-one-title-text">Tom Ford</h3>
+                <p class="section-two-photo-text">Frontend Developer</p>
+                <ul class="section-two-social-icons-list">
+                  <li class="soc-media-icon-item">
+                    <a href="https://instagram.com" class="social-icons-link">
+                      <svg class="section-two-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-media-icon-item">
+                    <a href="https://twitter.com" class="social-icons-link">
+                      <svg class="section-two-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-media-icon-item">
+                    <a href="https://facebook.com" class="social-icons-link">
+                      <svg class="section-two-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-media-icon-item">
+                    <a href="https://linkedin.com" class="social-icons-link">
+                      <svg class="section-two-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
-            <li class="section-two-item">
+            <li class="section-two-photo-item">
               <img
                 src="./images/camila.jpg"
                 alt="Marketing Photo"
                 width="264"
                 height="260"
               />
-              <div class="section-two-container">
-                <h3 class="section-two-text">Camila Garcia</h3>
-                <p class="section-two-photo">Marketing</p>
+              <div class="section-two-title-container">
+                <h3 class="section-one-title-text">Camila Garcia</h3>
+                <p class="section-two-photo-text">Marketing</p>
+                <ul class="section-two-social-icons-list">
+                  <li class="soc-media-icon-item">
+                    <a href="https://instagram.com" class="social-icons-link">
+                      <svg class="section-two-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-media-icon-item">
+                    <a href="https://twitter.com" class="social-icons-link">
+                      <svg class="section-two-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-media-icon-item">
+                    <a href="https://facebook.com" class="social-icons-link">
+                      <svg class="section-two-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-media-icon-item">
+                    <a href="https://linkedin.com" class="social-icons-link">
+                      <svg class="section-two-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
-            <li class="section-two-item">
+            <li class="section-two-photo-item">
               <img
                 src="./images/daniel.jpg"
                 alt="UI Designer Photo"
                 width="264"
                 height="260"
               />
-              <div class="section-two-container">
-                <h3 class="section-two-text">Daniel Wilson</h3>
-                <p class="section-two-photo">UI Designer</p>
+              <div class="section-two-title-container">
+                <h3 class="section-one-title-text">Daniel Wilson</h3>
+                <p class="section-two-photo-text">UI Designer</p>
+                <ul class="section-two-social-icons-list">
+                  <li class="soc-media-icon-item">
+                    <a href="https://instagram.com" class="social-icons-link">
+                      <svg class="section-two-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-media-icon-item">
+                    <a href="https://twitter.com" class="social-icons-link">
+                      <svg class="section-two-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-media-icon-item">
+                    <a href="https://facebook.com" class="social-icons-link">
+                      <svg class="section-two-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="soc-media-icon-item">
+                    <a href="https://linkedin.com" class="social-icons-link">
+                      <svg class="section-two-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
           </ul>
         </div>
       </section>
-    
-      <!-- Section-three -->
+
+
+      
+
+<!-- SECTION 3 -->
+
+
+
 
 
       <section class="section-three">
@@ -170,94 +332,193 @@
           <h2 class="section-three-title">Our Portfolio</h2>
           <ul class="section-three-list">
             <li class="section-three-item">
-              <img
-                src="./images/bankingapp.jpg"
-                alt="Banking App Photo"
-                width="360"
-                height="300"
-              />
+              <div class="section-three-wrapper">
+                <img
+                  src="./images/bankingapp.jpg"
+                  alt="Banking App Photo"
+                  width="360"
+                  height="300"
+                />
+                <p class="overlay">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
               <div class="section-three-container">
-                <h3 class="section-three-text">Banking App</h3>
-                <p class="section-three-photo">App</p>
+                <h3 class="section-three-photo-title">Banking App</h3>
+                <p class="section-three-para">App</p>
               </div>
             </li>
             <li class="section-three-item">
-              <img
-                src="./images/cashlesspayment.jpg"
-                alt="Cashless Payment Photo"
-                width="360"
-                height="300"
-              />
+              <div class="section-three-wrapper">
+                <img
+                  src="./images/cashlesspayment.jpg"
+                  alt="Cashless Payment Photo"
+                  width="360"
+                  height="300"
+                />
+                <p class="overlay">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
               <div class="section-three-container">
-                <h3 class="section-three-text">Cashless Payment</h3>
-                <p class="section-three-photo">Marketing</p>
+                <h3 class="section-three-photo-title">Cashless Payment</h3>
+                <p class="section-three-para">Marketing</p>
               </div>
             </li>
             <li class="section-three-item">
-              <img
-                src="./images/meditationapp.jpg"
-                alt="Meditation App Photo"
-                width="360"
-                height="300"
-              />
+              <div class="section-three-wrapper">
+                <img
+                  src="./images/meditationapp.jpg"
+                  alt="Meditation App Photo"
+                  width="360"
+                  height="300"
+                />
+                <p class="overlay">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+
               <div class="section-three-container">
-                <h3 class="section-three-text">Meditation App</h3>
-                <p class="section-three-photo">App</p>
+                <h3 class="section-three-photo-title">Meditation App</h3>
+                <p class="section-three-para">App</p>
               </div>
             </li>
             <li class="section-three-item">
-              <img
-                src="./images/taxiservice.jpg"
-                alt="Taxi Service Photo"
-                width="360"
-                height="300"
-              />
+              <div class="section-three-wrapper">
+                <img
+                  src="./images/taxiservice.jpg"
+                  alt="Taxi Service Photo"
+                  width="360"
+                  height="300"
+                />
+                <p class="overlay">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+
               <div class="section-three-container">
-                <h3 class="section-three-text">Taxi Service</h3>
-                <p class="section-three-photo">Marketing</p>
+                <h3 class="section-three-photo-title">Taxi Service</h3>
+                <p class="section-three-para">Marketing</p>
               </div>
             </li>
             <li class="section-three-item">
-              <img
-                src="./images/screeniiiustrations.jpg"
-                alt="Screen Illustration Photo"
-                width="360"
-                height="300"
-              />
+              <div class="section-three-wrapper">
+                <img
+                  src="./images/screeniiiustrations.jpg"
+                  alt="Screen Illustration Photo"
+                  width="360"
+                  height="300"
+                />
+                <p class="overlay">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
               <div class="section-three-container">
-                <h3 class="section-three-text">Screen Illustrations</h3>
-                <p class="section-three-photo">Design</p>
+                <h3 class="section-three-photo-title">Screen Illustrations</h3>
+                <p class="section-three-para">Design</p>
               </div>
             </li>
             <li class="section-three-item">
-              <img
-                src="./images/onlinecourses.jpg"
-                alt="Online Courses Photo"
-                width="360"
-                height="300"
-              />
+              <div class="section-three-wrapper">
+                <img
+                  src="./images/onlinecourses.jpg"
+                  alt="Online Courses Photo"
+                  width="360"
+                  height="300"
+                />
+                <p class="overlay">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+
               <div class="section-three-container">
-                <h3 class="section-three-text">Online Courses</h3>
-                <p class="section-three-photo">Marketing</p>
+                <h3 class="section-three-photo-title">Online Courses</h3>
+                <p class="section-three-para">Marketing</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
- 
-    
-<!-- Footer -->
 
-    <footer class="footer">
-      <div class="container">
-        <a class="logo-web footer-logo" href="./index.html"
-          >Web<span class="logo-studio">Studio</span></a
-        >
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+
+
+
+
+
+    <!--Footer-->
+
+
+
+    
+    <footer class="page-footer">
+      <div class="container footer-container">
+        <div class="logo-subcontainer">
+          <a class="logo-web footer-logo" href="./index.html"
+            >Web<span class="logo-studio">Studio</span></a
+          >
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+        <div class="soc-media-subcontainer">
+          <p class="footer-para">Social media</p>
+          <ul class="footer-icons-list">
+            <li class="footer-icons-item">
+              <a
+                href="https://instagram.com"
+                class="soc-media-link footer-soc-media-link"
+              >
+                <svg class="media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-icons-item">
+              <a
+                href="https://twitter.com"
+                class="soc-media-link footer-soc-media-link"
+              >
+                <svg class="media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-icons-item">
+              <a
+                href="https://facebook.com"
+                class="soc-media-link footer-soc-media-link"
+              >
+                <svg class="media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-icons-item">
+              <a
+                href="https://linkedin.com"
+                class="soc-media-link footer-soc-media-link"
+              >
+                <svg class="media-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
